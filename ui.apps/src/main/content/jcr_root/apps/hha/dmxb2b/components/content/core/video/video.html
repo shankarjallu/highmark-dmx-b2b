@@ -1,0 +1,14 @@
+
+<div class="video-container container-fluid" style="min-height:100px;">
+	<div class="row">
+        <div class="col col-sm-12" style="transition: width 2s;">
+			${properties.embedURL @context="html"}
+			<div data-sly-test="${properties.transcript == 'yes'}" id="open-trans" class="transcript"><a>Click here for video transcript</a></div>
+            <div class="transcript" id="close-trans"><a>Close the transcript</a></div>
+         </div>
+          <div class="transcript-container">
+				${properties.transcriptText}
+          </div>
+
+    </div>
+</div>

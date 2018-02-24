@@ -1,0 +1,45 @@
+
+.idea
+
+target
+
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+# javascript
+node_modules
+bower_components
+WebContent/
+typings/
+ui.resources/coverage
+
+
+# Eclipse Files
+.project
+.classpath
+.settings/
+.dir
+.gitkeep
+*.js.dir
+
+# Maven Files
+target/
+bin/
+
+# IntelliJ Files
+*.iml
+.idea/
+
+# SVN
+.svn/
+
+# VLT files
+.vlt
+.vlt*
+
+/run.bat
+
+# build generated file
+**/etc/designs/kporg/kp-jkp-fdl-mydoctor/clientlib-structural/app.bundle.js

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/hha/dmxb2b"/>
+<!--
+    <filter root="/apps/sling/servlet/errorhandler"/>
+
+
+    <filter root="/conf/highmark" mode="merge"/>
+
+-->
+    <filter root="/etc/clientlibs/dmxb2b"/>
+
+
+    <filter root="/etc/designs/dmxb2b" />
+
+
+</workspaceFilter>

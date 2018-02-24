@@ -1,0 +1,4 @@
+asseteditor.js
+signup.js
+footer.js
+video.js

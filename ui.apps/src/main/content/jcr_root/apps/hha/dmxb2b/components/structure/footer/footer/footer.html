@@ -1,0 +1,18 @@
+
+<sly data-sly-use.template="/apps/hha/dmxb2b/empty-template.html" data-sly-call="${template.placeholder}"></sly>
+<div class="footer-div container-fluid">
+    <div>
+        <h5 data-sly-test="${properties.listTitle}" data-target="#${properties.listid}">${properties.listTitle}
+          <sly data-sly-test="${properties.listoption == 'true'}"><span class="fa fa-plus mobile-view" aria-expanded="true" data-toggle="collapse" data-target="#${properties.listid}"></span></sly>
+		</h5>
+       <sly data-sly-test="${properties.listoption == 'true'}"> <hr></sly>
+       <ul id="${properties.listid}" aria-expanded="true" class="${properties.listoption}">
+            <sly data-sly-list.children="${resource.listChildren}">
+                 <sly data-sly-list.child="${children.listChildren}">
+					<li data-sly-test="${child.listvalue}"><a href="${child.linkurl @ extension='html'}" target="_blank">${child.listvalue}</a></li>
+                  </sly>
+             </sly>
+        </ul>
+    </div>
+</div>
+

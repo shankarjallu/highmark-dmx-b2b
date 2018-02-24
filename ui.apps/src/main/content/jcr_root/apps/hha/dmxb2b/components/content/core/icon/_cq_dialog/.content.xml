@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="glyphicon"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="type font-awesome class, please refer to font-awesome site, eg: fa fa-book"
+                        fieldLabel="type font-awesome class, please refer to font-awesome site, eg: fa fa-book"
+                        name="./icon"/>
+                    <color
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                        fieldDescription="select color"
+                        fieldLabel="icon color"
+                        name="./color">
+                        <items jcr:primaryType="nt:unstructured">
+                            <none
+                                jcr:primaryType="nt:unstructured"
+                                text="None"
+                                value=""/>
+                            <red
+                                jcr:primaryType="nt:unstructured"
+                                text="red"
+                                value="red"/>
+                            <blue
+                                jcr:primaryType="nt:unstructured"
+                                text="blue"
+                                value="blue"/>
+                            <green
+                                jcr:primaryType="nt:unstructured"
+                                text="green"
+                                value="green"/>
+                            <grey
+                                jcr:primaryType="nt:unstructured"
+                                text="grey"
+                                value="grey"/>
+                            <white
+                                jcr:primaryType="nt:unstructured"
+                                text="white"
+                                value="white"/>
+                        </items>
+                    </color>
+                    <size
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                        fieldDescription="select size"
+                        fieldLabel="icon size"
+                        name="./size">
+                        <items jcr:primaryType="nt:unstructured">
+                            <none
+                                jcr:primaryType="nt:unstructured"
+                                text="None"
+                                value=""/>
+                            <fa-lg
+                                jcr:primaryType="nt:unstructured"
+                                text="fa-lg"
+                                value="fa-lg"/>
+                            <fa-2x
+                                jcr:primaryType="nt:unstructured"
+                                text="fa-2x"
+                                value="fa-2x"/>
+                            <fa-3x
+                                jcr:primaryType="nt:unstructured"
+                                text="fa-3x"
+                                value="fa-4x"/>
+                            <fa-4x
+                                jcr:primaryType="nt:unstructured"
+                                text="fa-4x"
+                                value="fa-4x"/>
+                            <fa-5x
+                                jcr:primaryType="nt:unstructured"
+                                text="fa-5x"
+                                value="fa-5x"/>
+                        </items>
+                    </size>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

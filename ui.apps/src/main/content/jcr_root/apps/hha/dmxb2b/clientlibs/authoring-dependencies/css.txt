@@ -1,0 +1,1 @@
+# Specify the Authoring dialog dependent css
